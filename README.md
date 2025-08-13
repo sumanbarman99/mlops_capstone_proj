@@ -61,7 +61,7 @@ Visual comparison of model performance metrics (RMSE, MAE, R2, MAPE) logged and 
 ![Model Comparisons in MLflow UI](photos/model_comprision.png)  
 *Comparison of different regression models RSME in MLflow.*
 
-![Model Comparisons in MLflow UI]()  
+![Model Comparisons in MLflow UI](photos/model_comp_mult_matrics.png)  
 *Comparison of different regression models performance in MLflow.*
 ---
 
@@ -76,10 +76,7 @@ MLflow Model Registry showing version history of the registered models and the a
 
 ### 3. Model Deployment
 
-Screenshot of the Flask REST API running locally and serving predictions using the best model.
-
-![Flask API Deployment](images/flask_api_deployment.png)  
-*Local test of deployed Flask REST API for MPG prediction.*
+Flask REST API running locally and serving predictions using the best model at `capstone_project/app.py`.
 
 ---
 
@@ -87,7 +84,8 @@ Screenshot of the Flask REST API running locally and serving predictions using t
 
 Monitoring dashboard showing real-world prediction accuracy and drift detection alerts for fuel efficiency predictions over time.
 
-![Monitoring Dashboard](images/monitoring_dashboard.png)  
+
+[Open Monitoring Dashboard (HTML file)](capstone_project/data_drift_report.html)
 *Dashboard monitoring model performance and feature drift in production.*
 
 ---
