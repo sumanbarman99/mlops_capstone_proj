@@ -76,7 +76,8 @@ MLflow Model Registry showing version history of the registered models and the a
 
 ### 3. Model Deployment
 
-Flask REST API running locally and serving predictions using the best model at `capstone_project/app.py`.
+Flask REST API running locally and serving predictions using the best model via capstone_project/app.py.
+Also deployed using GitHub Actions at .github/workflows.
 
 ---
 
