@@ -29,3 +29,5 @@ jobs:
       - name: Run prediction (inference)
         run: |
           python predict.py
+
+
