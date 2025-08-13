@@ -12,7 +12,6 @@ def predict_mpg(input_data):
     # Convert input dict to DataFrame with columns
     input_df = pd.DataFrame([input_data], columns=feature_columns)
 
-    print(input_df)
     # Pass the DataFrame (not a numpy array) to model.predict()
     mpg_pred = model.predict(input_df)
 
