@@ -52,3 +52,45 @@ This project focuses on predicting the miles per gallon (MPG) of automobiles usi
 
 ---
 
+## Final Deliverables
+
+### 1. Model Comparisons
+
+Visual comparison of model performance metrics (RMSE, MAE, R2, MAPE) logged and displayed in the MLflow UI.
+
+![Model Comparisons in MLflow UI](photos/model_comparisons.png)  
+*Comparison of different regression models RSME in MLflow.*
+
+![Model Comparisons in MLflow UI]()  
+*Comparison of different regression models performance in MLflow.*
+---
+
+### 2. Version History and Rollback Demonstration
+
+MLflow Model Registry showing version history of the registered models and the ability to rollback to previous stable versions.
+
+![MLflow Model Registry Version History](photos/model_registry_version_history.png)  
+*Version control and rollback capabilities in MLflow Model Registry.*
+
+---
+
+### 3. Model Deployment
+
+Screenshot of the Flask REST API running locally and serving predictions using the best model.
+
+![Flask API Deployment](images/flask_api_deployment.png)  
+*Local test of deployed Flask REST API for MPG prediction.*
+
+---
+
+### 4. Monitoring Dashboards
+
+Monitoring dashboard showing real-world prediction accuracy and drift detection alerts for fuel efficiency predictions over time.
+
+![Monitoring Dashboard](images/monitoring_dashboard.png)  
+*Dashboard monitoring model performance and feature drift in production.*
+
+---
+
+---
+
