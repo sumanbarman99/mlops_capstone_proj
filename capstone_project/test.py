@@ -13,8 +13,7 @@ payload = [
         "weight": 2264.0,
         "acceleration": 15.5,
         "model_year": 78,
-        "origin_2": 0,
-        "origin_3": 1
+        "origin": 0
     },
     {
         "cylinders": 6,
@@ -23,8 +22,7 @@ payload = [
         "weight": 3353.0,
         "acceleration": 14.5,
         "model_year": 77,
-        "origin_2": 1,
-        "origin_3": 0
+        "origin": 1
     }
 ]
 
