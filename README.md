@@ -58,7 +58,7 @@ This project focuses on predicting the miles per gallon (MPG) of automobiles usi
 
 Visual comparison of model performance metrics (RMSE, MAE, R2, MAPE) logged and displayed in the MLflow UI.
 
-![Model Comparisons in MLflow UI](photos/model_comparisons.png)  
+![Model Comparisons in MLflow UI](photos/model_comprision.png)  
 *Comparison of different regression models RSME in MLflow.*
 
 ![Model Comparisons in MLflow UI]()  
