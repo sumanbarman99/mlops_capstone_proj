@@ -20,8 +20,8 @@ def predict_mpg(input_data):
     # Load the trained model
     model = joblib.load('bestAutoMPGModel.pkl')
 
-    # Extract features in the correct order and convert to 2D array for prediction
-    features = np.array([input_data[col] for col in feature_columns]).reshape(1, -1)
+    # Convert input dict to DataFrame with one row
+    input_df = pd.DataFrame([input_data], columns=feature_columns)
 
     # Make prediction
     mpg_pred = model.predict(features)
