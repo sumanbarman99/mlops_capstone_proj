@@ -58,11 +58,11 @@ This project focuses on predicting the miles per gallon (MPG) of automobiles usi
 
 Visual comparison of model performance metrics (RMSE, MAE, R2, MAPE) logged and displayed in the MLflow UI.
 
-![Model Comparisons in MLflow UI](photos/model_comprision.png)  
-*Comparison of different regression models RSME in MLflow.*
+![Model Comparison – RMSE](photos/model_comprision.png)  
+*Comparison of different regression models based on RMSE in MLflow.*
 
-![Model Comparisons in MLflow UI](photos/model_comp_mult_matrics.png)  
-*Comparison of different regression models performance in MLflow.*
+![Model Comparison – Multiple Metrics](photos/model_comp_mult_matrics.png)  
+*Comparison of regression model performance across multiple metrics (MAE, R², MAPE, etc.) in MLflow.*
 ---
 
 ### 2. Version History and Rollback Demonstration
@@ -86,7 +86,9 @@ Monitoring dashboard showing real-world prediction accuracy and drift detection 
 
 
 [Open Monitoring Dashboard (HTML file)](capstone_project/data_drift_report.html)
-*Dashboard monitoring model performance and feature drift in production.*
+*Dashboard Data Drift.*
+[Open Monitoring Dashboard (HTML file)](capstone_project/model_performance_report.html)
+*Dashboard Model Drift.*
 
 ---
 
