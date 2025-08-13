@@ -8,7 +8,7 @@ import numpy as np
 # model = mlflow.pyfunc.load_model(f"models:/{model_name}/Production")
 import joblib
 
-model = joblib.load("BestAutoMPGModel.pkl")
+model = joblib.load("bestAutoMPGModel.pkl")
 
 
 app = Flask(__name__)
