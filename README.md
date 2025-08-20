@@ -85,6 +85,26 @@ Additionally, deployment is automated using GitHub Actions configured in `.githu
 ![GitHub Deployment](photos/Screenshot_2025-08-20_222628.png)
 
 ---
+### GitHub Deployment Workflow
+
+1. **Create `.github/workflows` folder**  
+   This folder contains GitHub Actions workflow files that automate your CI/CD pipeline.
+
+2. **Add `ci-cd.yml` file**  
+   Define your deployment script in this YAML file to:  
+   - Set up the environment  
+   - Install dependencies  
+   - Run tests  
+   - Deploy the model/API
+
+3. **Run inference**  
+   Once deployed, the Flask REST API serves predictions by running inference with the best model.
+
+---
+
+**Example:**  
+`.github/workflows/ci-cd.yml` contains the workflow automation script that triggers on push or pull requests and manages the deployment process.
+
 
 ### 4. Monitoring Dashboards
 
