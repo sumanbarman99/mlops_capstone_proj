@@ -95,7 +95,7 @@ Additionally, deployment is automated using GitHub Actions configured in `.githu
    - Set up the environment  
    - Install dependencies  
    - Run tests  
-   - Deploy the model/API
+   - Deploy the model
 
 3. **Run inference**  
    Once deployed, the Flask REST API serves predictions by running inference with the best model.
