@@ -82,7 +82,7 @@ MLflow Model Registry showing version history of the registered models and the a
 The Flask REST API runs locally and serves predictions using the best model via `capstone_project/app.py`.  
 Additionally, deployment is automated using GitHub Actions configured in `.github/workflows`.
 
-![GitHub Deployment](photos/Screenshot_2025-08-20_222628.png)
+![GitHub Deployment](photos/github_deployment.png)
 
 ---
 ### GitHub Deployment Workflow
