@@ -79,7 +79,7 @@ MLflow Model Registry showing version history of the registered models and the a
 
 Flask REST API running locally and serving predictions using the best model via capstone_project/app.py.
 Also deployed using GitHub Actions at .github/workflows.
-
+[Github Deployment](photos/Screenshot 2025-08-20 222628.png)
 ---
 
 ### 4. Monitoring Dashboards
